@@ -202,6 +202,14 @@ body     { pointer-events: none; }
   bottom: 100px;
 }
 
+.step#previously ol {
+  margin-top: 20px;
+}
+
+.step#previously ol li {
+  line-height: 1.6em
+}
+
 .step#mytop h1 {
   font-size: 70px
 }
