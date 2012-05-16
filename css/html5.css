@@ -202,8 +202,12 @@ body     { pointer-events: none; }
   bottom: 100px;
 }
 
-.step#previously ol {
+.step#previously ol.two-column {
   margin-top: 20px;
+  -moz-column-width: 7em; 
+  -webkit-column-width: 7em; 
+  -moz-column-gap: 1em; 
+  -webkit-column-gap: 1em;
 }
 
 .step#previously ol li {
