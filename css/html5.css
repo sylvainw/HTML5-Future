@@ -215,7 +215,8 @@ body     { pointer-events: none; }
 }
 
 .step#mytop h1 {
-  font-size: 70px
+  font-size: 70px;
+  text-align: center;
 }
 
 .step#mytop h1 b {
@@ -223,8 +224,14 @@ body     { pointer-events: none; }
 }
 
 .step#mytop img {
-  right: 200px; 
+  right: 150px; 
   bottom: 120px;
+}
+
+.step#mytop img#tv-logo {
+  right: -80px; 
+  top: 120px;
+  -webkit-transform: rotate(20deg);
 }
 
 .step#install img {

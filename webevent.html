@@ -1,0 +1,319 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5, vers l'infini et au-delà</title>
+
+  <meta name="description" content="Présentation interactive présentant 10 innovations HTML5 à suivre de près.">
+  <meta name="author" content="Sylvain Weber" />
+
+  <link href="http://fonts.googleapis.com/css?family=Exo:400,700" rel="stylesheet" />
+
+  <link href="css/html5.css" rel="stylesheet" />
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-415654-37']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>  
+
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support all the features required</b>, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+  </div>
+
+
+  <div class="step" id="home" data-x="-1000" data-y="-1500">
+    <img src="img/buzz.png" />
+    <h1><span style="font-size: 110px">HTML5</span><br> vers l'infini et au-delà !</h1>
+    <p>WebEvent Lyon<br/>
+      #html5future</p>
+    <!--<aside><a href="http://www.livestream.com/iesamultimedialivestream/video?clipId=pla_7bf67e86-128a-493d-a67d-fe254f6f4e5c">Voir l'enregistrement vidéo</a> <br>
+    (à partir de 01:02:00)</aside>-->
+  </div>
+
+  <div class="step" id="whoami" data-x="0" data-y="-1500">
+    <h1>Présentation</h1>
+
+    <p>
+      <b>Sylvain Weber</b><br>
+      Co-fondateur, CEO de <a href="http://kontestapp.com">Kontestapp.com</a>
+    </p>
+
+    <ul>
+      <li>Ancien HTML5 Evangelist chez <b>Google</b></li>
+      <li>Ancien Développeur Web/Flash chez <b>Dailymotion</b></li>
+    </ul>
+
+    <ul>
+      <li>Twitter : <a href="http://twitter.com/sylvainw">@sylvainw</a></li>
+    </ul>
+
+    <img style="left: 150px; bottom: 45px;" src="img/kontest_multicanal.png" />
+
+  </div>
+
+  <div class="step" id="starter" data-x="1500" data-y="-1500">
+
+    <h1>Avant de démarrer</h1>
+
+    <ul>
+      <li>Je ne suis pas "hardcore" dev</li>
+      <li>J'aime faire découvrir, partager, vulgariser</li>
+      <li>Focus sur les usages</li>
+    </ul>
+
+    <p>Evitons les trolls (Flash VS HTML5 etc)</p>
+
+    <img src="img/troll.png" />
+
+  </div>
+
+  <div class="step" id="troll" data-x="3000" data-y="-1500" data-rotate="180">
+
+    <h1>OU PAS !</h1>
+    <img src="img/flash.jpg" />
+
+  </div>
+
+  <div class="step" id="mytop" data-x="3000" data-y="-1500" data-z="-2000">
+
+    <h1><b>Top 10</b> <br>"Usages innovants"</h1>
+    <img src="img/top50.jpg" />
+    <img id="tv-logo" src="img/pas_tv.png" />
+
+  </div>
+
+  <div class="step" id="install" data-x="4500" data-y="-1500">
+
+    <h1>"Tu peux pas test"</h1>
+
+    <ul>
+      <li><a href="http://tools.google.com/dlpage/chromesxs">Chrome Canary</a> + chrome://flags</li>
+      <li><a href="http://nightly.mozilla.org/">Firefox Nightly Build</a></li>
+    </ul>
+
+    <img src="img/canary.png" />
+    <img src="img/nightly.jpg" />
+
+  </div>
+
+  <div class="step top" id="navigation" data-x="4500" data-y="-1500" data-z="4000" data-rotate="180" data-scale="3">
+
+    <div class="number">10</div>
+
+    <h1>Navigation élégante</h1>
+    <ul>
+      <li><a href="http://blacknegative.com">Black Negative</a></li>
+      <li><a href="http://2012.beercamp.com/">3D Book</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="dataviz" data-x="4500" data-y="-3000" data-z="8000" data-scale="3">
+
+    <div class="number">9</div>
+
+    <h1>Data visualization</h1>
+    <ul>
+      <li><a href="http://www.youtube.com/watch?v=-rokPqfebrM">CNN Ecosphere</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="design" data-x="4500" data-y="-4500" data-z="12000" data-rotate="180" data-scale="3">
+
+    <div class="number">8</div>
+    
+    <h1>Design objet</h1>
+    <ul>
+      <li><a href="http://n-e-r-v-o-u-s.com/cellCycle/">CellCycle</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="webcam" data-x="4500" data-y="-6000" data-z="16000" data-scale="3">
+
+    <div class="number">7</div>
+
+    <h1>Chatroulette ;)</h1>
+    <ul>
+      <li><a href="http://neave.com/webcam/html5/">Neave's Webcam Filter</a></li>
+      <li><a href="http://weblog.bocoup.com/javascript-webrtc-opera-mobile-12/">Opera Mobile</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="mao" data-x="6000" data-y="-8500" data-z="18000" data-rotate="180" data-scale="3">
+
+    <div class="number">6</div>
+    
+    <h1>MAO</h1>
+    <ul>
+      <li><a href="http://qiao.github.com/euphony">Midi vizualiser</a></li>
+      <li><a href="http://labs.dinahmoe.com/plink">Plink</a></li>
+    <ul>
+
+  </div>
+
+  <div class="step top" id="immersion" data-x="6000" data-y="-10000" data-z="24000" data-scale="3">
+
+    <div class="number">5</div>
+    
+    <h1>Immersion 3D</h1>
+    <ul>
+      <li><a href="http://www.clicktorelease.com/code/street/">Streeview WebGL</a></li>
+      <li><a href="http://media.tojicode.com/q3bsp/?tesselate=2">Quake 3</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="webdesign" data-x="6000" data-y="-11500" data-z="28000" data-rotate="180" data-scale="3">
+
+    <div class="number">4</div>
+
+    <h1>Webdesign 3D</h1>
+    <ul>
+      <li><a href="http://acko.net/blog/making-love-to-webkit">Making Love to Webkit</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="multitouch" data-x="6000" data-y="-13000" data-z="32000" data-scale="3">
+
+    <div class="number">3</div>
+    
+    <h1>Multitouch</h1>
+    <ul>
+      <li><a href="http://www.appliness.com/multitouch-with-hammer-js/">Hammer JS</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="gamepad" data-x="6000" data-y="-14500" data-z="36000" data-rotate="180" data-scale="3">
+
+    <div class="number">2</div>
+    
+    <h1>Gamepad</h1>
+    <ul>
+      <li><a href="http://robhawkes.github.com/gamepad-demo/">Gamepad Tester</a></li>
+      <li><a href="http://boxes-wot-shoot.appspot.com/">Exemple WebGL</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step top" id="live coding" data-x="6000" data-y="-16000" data-z="40000" data-scale="3">
+
+    <div class="number">1</div>
+
+    <h1>Live Coding</h1>
+    <ul>
+      <li><a href="https://vimeo.com/36579366">Video : "Inventing on principle"</a></li>
+      <li><a href="http://gabrielflor.it/water">Datavisualisation</a></li>
+      <li><a href="http://www.sketchpatch.net/livecodelab/index.html">3D Visual Coding</a></li>
+      <li><a href="http://www.youtube.com/watch?v=MOvfn1p92_8">Unreal Engine 4</a></li>
+    </ul>
+
+  </div>
+
+  <div class="step" id="more" data-x="25000" data-y="-1500" data-z="40000">
+
+  <h1>Et bien d'autres</h1>
+
+  <ul>
+    <li><a href="https://developer.mozilla.org/media/uploads/demos/s/p/spite/67b48d880d80d1f6e789918233fa2b6f/dont-lose-your-wayki_1314842262_demo_package/index.html">History API</a></li>
+    <li><a href="http://www.webgl.com/2012/03/webgl-demo-google-search-3d-graph/">WebGL Search</a></li>
+    <li><a href="http://www.samdutton.com/pageVisibility">Page Visibility API</a></li>
+    <li><a href="http://gamecenter.grantgalitz.org/">Retrogaming</a></li>
+    <br/>
+    <li><a href="http://devstand.com/apps/html5-animations/">Vers un IDE équivalent à Flash Pro ?</a></li>
+    <li><a href="http://html.adobe.com">Adobe in da place</a></li>
+    <li><a href="http://paulrouget.com/e/webapis/">Mozilla's Web API</a></li>
+    <li>Etc...</li>
+  </ul>
+
+  </div>
+
+  <div class="step" id="revolution" data-x="26500" data-y="-1500" data-z="40000">
+
+    <h1>La révolution HTML5 est en marche !</h1>
+
+    <ul>
+      <li>Les acteurs de l'industrie portent HTML5</li>
+      <li>Les navigateurs sont prêts</li>
+      <li>Les devices sont prêts</li>
+      <li>La communauté est bien là</li>
+    </ul>
+
+    <img style="position:absolute; bottom: 10px" src="img/futureHTML5.png" />
+  
+  </div>
+
+  <div class="step" id="timetochange" data-x="28000" data-y="-1500" data-z="40000">
+
+    <h1>Prenez la pilule rouge</h1>
+    <ol>
+      <li>Testez</li>
+      <li>Créez</li>
+      <li>Partagez !</li>
+    <ul>
+
+    <img style="position: absolute; right: 200px; bottom: 120px; " src="img/pilule.jpg" />
+
+  </div>
+
+  <div class="step" id="references" data-x="29500" data-y="-1500" data-z="40000">
+
+    <h1>Références</h1>
+    <ul>
+      <li>Veille sur Twitter !</li>
+      <li><a href="http://w3.org">http://w3.org</li>
+      <li><a href="http://caniuse.com">http://caniuse.com</li>
+      <li><a href="http://html5please.us">http://html5please.us</li>
+      <li><a href="http://html5rocks.com">http://html5rocks.com</li>
+      <li><a href="http://platform.html5.org">http://platform.html5.org</a></li>
+      <li><a href="http://browsersupport.net">http://browsersupport.net</a></li>
+      <li><a href="http://w3.org/wiki/HTML/next">http://w3.org/wiki/HTML/next</a></li>
+      <li><a href="http://html5-demos.appspot.com">http://html5-demos.appspot.com</li>
+    </ul>
+
+  </div>
+
+  <div class="step" id="ie6" data-x="31000" data-y="-1500" data-z="40000">
+
+    <h1>IE6 m'a tuer</h1>
+    <iframe style="margin-top:50px" width="800" height="489" src="http://www.youtube.com/embed/4DbgiOCTQts" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+
+  <div class="step" id="end" data-x="-1000" data-y="-1500" data-z="10000">
+
+    <h1>Merci !</h1>
+    <p>Des questions ?</p>
+    <a href="http://twitter.com/sylvainw">@sylvainw</a>
+
+    <aside>Créé avec <a href="https://github.com/bartaz/impress.js">Impress.JS</a><br/>
+      Présentation disponible à l'adresse suivante : <b style="font-size: 3em"><a href="http://goo.gl/em9yC">goo.gl/em9yC</a></b></aside>
+
+  </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+
+</body>
+</html>
