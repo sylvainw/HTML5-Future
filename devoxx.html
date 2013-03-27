@@ -1,0 +1,424 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>L'art de Bricoler</title>
+
+  <meta name="description" content="Présentation interactive présentant Running Spree, une expérimentation HTML5 créée par Sylvain Weber.">
+  <meta name="author" content="Sylvain Weber" />
+
+  <link href="http://fonts.googleapis.com/css?family=Exo:400,700" rel="stylesheet" />
+
+  <link href="css/html5.css" rel="stylesheet" />
+  <link href="js/highlight/monokai.css" rel="stylesheet" />
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-415654-37']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>  
+
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support all the features required</b>, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+  </div>
+
+
+  <div class="step" id="home" data-x="-1000" data-y="-1500">
+    <img style="right: -270px; bottom: 0px;" src="img/bricoler.jpg" height="900" />
+    <h1 style="color: white; position: absolute">L'art de <span style="font-size: 130px">Bricoler</span></h1>
+    <p style="color: white; position: absolute; margin-top: 170px">Devoxx - Mars 2013<br/>
+      @sylvainw</p>
+    <!--<aside><a href="http://www.youtube.com/watch?v=CRk9Em9DEOQ">Voir l'enregistrement vidéo</a></aside>-->
+  </div>
+
+  <div class="step" id="whoami" data-x="200" data-y="-1500">
+    <h1>Présentation</h1>
+
+    <p>
+      <b>Sylvain Weber</b><br>
+      Co-fondateur, CEO de <a href="http://kontestapp.com/fr">Kontestapp.com</a>
+    </p>
+
+    <ul>
+      <li>Ancien HTML5 Evangelist chez <b>Google</b></li>
+      <li>Ancien Développeur Web/Flash chez <b>Dailymotion</b></li>
+    </ul>
+
+    <ul>
+      <li>Twitter : <a href="http://twitter.com/sylvainw">@sylvainw</a></li>
+    </ul>
+
+    <img style="left: 402px; bottom: 52px; height: 397px" src="img/kontest_2013.jpg" />
+
+  </div>
+
+  <div class="step" id="starter" data-x="1500" data-y="-1500">
+
+    <h1>Avant de démarrer</h1>
+
+    <ul>
+      <li>Je ne suis pas "hardcore" dev</li>
+      <li>Observateur de tendances</li>
+      <li>J'aime faire découvrir, partager, vulgariser</li>
+    </ul>
+
+    <img style="position: absolute; right: 99px; bottom: 64px; height: 390px" src="img/ralph.gif" />
+
+  </div>
+
+  <div class="step" id="oneyear" data-x="3000" data-y="-1500">
+
+    <h1>1 an de meetup HTML5</h1>
+
+    <ul>
+      <li><a href="http://html5meetup.com">7 meetups</a></li>
+      <li>+1000 membres sur <a href="http://html5meetup.com">Html5meetup.com</a></li>
+      <li>Des guests prestigieux : Google, Microsoft, Adobe, Mozilla...</li>
+      <li>L'équipe <a href="http://fr.bemyapp.com">BeMyApp</a> s'occupe de tout</li>
+    </ul>
+
+    <img style="position: absolute; right: 593px; bottom: 120px; height: 217px" src="img/meetup1.jpg" />
+    <img style="position: absolute; right: 4px; bottom: 120px; height: 217px" src="img/meetup2.jpg" />
+    <img style="position: absolute; right: 299px; bottom: 120px; height: 217px" src="img/meetup3.jpg" />
+
+  </div>
+
+  <div class="step" id="showus" data-x="4500" data-y="-1500">
+
+    <h1>J'ai le beau rôle</h1>
+
+    <ul>
+      <li>T'arrêtes pas de présenter le travail des autres...
+        <ul style="font-size: 30px; margin: 30px 100px 50px">
+          <li><a href="http://sylvainw.github.com/HTML5-Future/index.html">Meetup 1</a></li>
+          <li><a href="http://sylvainw.github.com/HTML5-Future/mars.html">Meetup 2</a></li>
+          <li><a href="http://sylvainw.github.com/HTML5-Future/mai.html">Meetup 3</a></li>
+          <li><a href="http://sylvainw.github.com/HTML5-Future/juin.html">Meetup 4</a></li>
+          <li><a href="http://sylvainw.github.com/HTML5-Future/novembre.html">Meetup 5</a></li>
+          <li><a href="http://sylvainw.github.com/HTML5-Future/decembre.html">Meetup 6</a></li>
+          <li><strong>Y'EN A MARRE !!!</strong></li>
+        </ul>
+      </li>
+      <li>Montre-nous ce que tu sais faire !</li>
+    </ul>
+
+    <img style="position: absolute; right: 99px; bottom: 300px; height: 300px" src="img/nelson.jpg" />
+
+  </div>
+
+  <div class="step" id="listen" data-x="6000" data-y="-1500">
+
+    <h1>J'ai un besoin</h1>
+
+    <ul>
+      <li>Gamepad API</li>
+      <li>Déjà présenté au <a href="http://sylvainw.github.com/HTML5-Future/index.html#/step-16">1er meetup</a> / <a href="http://sylvainw.github.com/HTML5-Future/novembre.html#/webcam">dernier meetup</a></li>
+      <li><a href="http://boxes-wot-shoot.appspot.com">Pas de démo</a> vraiment géniale</li>
+    </ul>
+
+    <img style="position: absolute; right: 119px; bottom: 64px; height: 400px" src="img/gamepadBad.png" />
+
+  </div>
+
+  <div class="step" id="think" data-x="7500" data-y="-1500">
+
+    <h1>Réfléchir au calme</h1>
+
+    <ul>
+      <li>Vendredi matin : C'est <strong>Balnéothérapie</strong></li>
+      <li>Euréka !</li>
+    </ul>
+
+    <img style="position: absolute; right: 99px; bottom: 64px; height: 500px" src="img/balneo.jpg" />
+
+  </div>
+
+  <div class="step" id="ddrPlay" data-x="9000" data-y="-1500">
+
+    <h1>Dance Dance Revolution</h1>
+
+    <img style="position: absolute; right: 59px; bottom: 100px; height: 600px" src="img/ddrPlay.png" />
+    <p style="position: absolute; right: -559px; bottom: -300px; font-size: 1000px">+</p>
+  </div>
+
+  <div class="step" id="america" data-x="10500" data-y="-1500">
+
+    <h1>Walk across America</h1>
+
+    <img style="position: absolute; right: 109px; bottom: 100px; height: 600px" src="img/walk.jpg" />
+
+  </div>
+
+  <div class="step" id="before" data-x="12000" data-y="-1500">
+
+    <h1>Pré-requis</h1>
+
+    <ol>
+      <li>Récupérer le tapis chez ma sœur</li>
+      <li>Vérifier la prise en charge du Gamepad</li>
+      <li>Peut-on faire varier la vitesse d'une vidéo HTML5</li>
+      <li><strong>JUST DO IT !</strong></li>
+    </ol>
+
+    <img style="position: absolute; right: 99px; bottom: 64px; height: 300px" src="img/ddr.png" />
+    <img style="position: absolute; right: 430px; bottom: 64px;" src="img/usb.jpg" />
+
+  </div>
+
+  <div class="step" id="demo" data-x="13500" data-y="-1500">
+
+    <h1>Running Spree !</h1>
+
+    <ul>
+      <li>Gamepad API + DDR + Timelapse video</li>
+      <li><p>DEMO : <a href="http://goo.gl/80rUc">goo.gl/80rUc</a> (<a href="https://www.youtube.com/watch?v=ZBceuwwKLZc">vidéo</a>)</li>
+    </ul>
+
+    <img style="position: absolute; right: 79px; bottom: 64px; height: 500px" src="img/runningSpree.png" />
+
+  </div>
+
+  <div class="step" id="tech" data-x="15000" data-y="-1500">
+
+    <h1>Technos HTML5 utilisées</h1>
+
+    <ul style="margin-top: 100px">
+      <li>Gamepad API</li>
+      <li>Balise <strong>&lt;video&gt;</strong></li>
+      <li>Web Audio API</li>
+      <li>WebFonts</li>
+      <li>CSS Gradient</li>
+      <li>CSS Transition</li>
+    </ul>
+
+    <img style="position: absolute; right: 99px; bottom: 200px; height: 450px" src="img/html5.png" />
+
+  </div>
+
+  <div class="step" id="tech-gamepad" data-x="15000" data-y="-500">
+
+    <h1>Gamepad API</h1>
+
+    <ul>
+      <li>Août 2012 : Chrome 21</li>
+      <li>Firefox <a href="http://people.mozilla.com/~tmielczarek/gamepad">Custom Nightly Build</a> (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=604039#c188">Discussion</a> ;o)</li>
+      <li><a href="https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html">W3C First public working draft</a></li>
+      <li><a href="http://www.html5rocks.com/en/tutorials/doodles/gamepad">Tuto HTML5 Rocks</a></li>
+    </ul>
+    <pre class="js"><code style="font-size:30px">var gamepad = navigator.getGamepads()[0];
+if(gamepad)
+{
+  if (gamepad.buttons[15]) press('left');
+  if (gamepad.buttons[13]) press('right');
+  if (gamepad.buttons[9])  press('enter');
+}
+else console.log('no controller');</code>
+    </pre>
+
+  </div>
+
+  <div class="step" id="tech-video" data-x="15000" data-y="500">
+
+    <h1>Balise <strong>&lt;video&gt;</strong></h1>
+
+    <ul>
+      <li><a href="http://www.html5rocks.com/en/tutorials/video/basics">Tuto HTML5 Rocks</a></li>
+    </ul>
+
+    <pre class="html">   
+<code>&lt;video id="video-america" 
+  src="media/video_1280x720.mp4"&gt;
+  Guys walks across america
+&lt;/video&gt;</code></pre>
+<pre class="js">   
+<code style="font-size: 22px">var combination = buttonEvents.left && buttonEvents.right;
+display.videoSpeed += combination ? .015 - display.videoSpeed / 100 : -.05;
+$('video#video-america').get(0).playbackRate = display.videoSpeed;</code>
+    </pre>
+
+  </div>
+
+  <div class="step" id="tech-audio" data-x="15000" data-y="1500">
+
+    <h1>Web Audio API</h1>
+
+    <ul>
+      <li><a href="http://www.html5rocks.com/en/tutorials/webaudio/intro">Tuto HTML5 Rocks</a></li>
+    </ul>
+
+    <pre class="js">   
+<code>loadSound('media/mk64_countdown.wav');
+playSound(countDownBuffer);</code>
+</pre>
+<pre class="js"><code style="font-size:10px">context = new AudioContext();
+var countDownBuffer = null;
+
+function loadSound(url, bufferSound) 
+{
+  var request = new XMLHttpRequest();
+  request.open('GET', url, true);
+  request.responseType = 'arraybuffer';
+
+  request.onload = function() {
+    context.decodeAudioData(request.response, function(buffer) {
+      countDownBuffer = buffer;
+    });
+  }
+  request.send();
+}
+
+function playSound(buffer) 
+{
+  var source = context.createBufferSource();
+  source.buffer = buffer;
+  source.connect(context.destination);
+  source.noteOn(0);
+}</code>
+    </pre>
+
+  </div>
+
+  <div class="step" id="tech-webfont" data-x="15000" data-y="2500">
+
+    <h1>WebFonts</h1>
+
+    <ul>
+      <li><a href="http://www.google.com/fonts/specimen/Faster+One">Google WebFonts</a></li>
+    </ul>
+
+    <pre class="html">   
+<code style="font-size:34px">&lt;link rel="stylesheet" type="text/css" 
+  href="http://fonts.googleapis.com/css?
+  family=Faster+One|Carter+One"&gt;</code></pre>
+<pre class="css">   
+<code style="font-size:34px">nav#menu h1, div#countdown {
+  font-family: 'Faster One', arial, sans-serif; 
+}
+nav.hud#hud-bottom li#level span#level-value {
+  font-family: 'Carter One', arial, sans-serif;
+}
+</code>
+    </pre>
+
+  </div>
+
+  <div class="step" id="tech-gradient" data-x="15000" data-y="3500">
+
+    <h1>CSS Gradient/Transition</h1>
+
+    <ul>
+      <li><a href="http://www.colorzilla.com/gradient-editor">Gradient Editor</a></li>
+      <li>Transition : <a href="http://www.alsacreations.com/tuto/lire/873-transitions-css3-animations.html">Tuto Alsacréations</a></li>
+    </ul>
+
+    <pre class="css">   
+<code>nav#menu {
+  background: linear-gradient(top, #1e5799 0%, 
+        #7db9e8 100%);
+}
+nav.hud#hud-top div#countdown.hide {
+  opacity: 0;
+  transition: opacity 1s linear;
+}</code>
+    </pre>
+
+  </div>
+
+  <div class="step" id="improvements" data-x="16500" data-y="-1500">
+
+    <h1>Améliorations possibles<br/><a href="https://github.com/sylvainw/RunningSpree">en Open Source</a></h1>
+
+    <ul style="margin-top: 100px">
+      <li>Niveaux de difficulté</li>
+      <li>Leaderboard (local storage)</li>
+      <li>Ajout de transitions</li>
+      <li>Bruitages de jeu</li>
+      <li>Refactoring du code :-/</li>
+    </ul>
+
+    <img style="position: absolute; right: -249px; bottom: 64px; height: 650px" src="img/github.png" />
+
+  </div>
+
+  <div class="step" id="rules" data-x="18000" data-y="-1500">
+
+    <h1>Ce que je retiens</h1>
+
+    <ol style="margin-top: 40px">
+      <li>Réfléchir au calme</li>
+      <li>Etre à l'écoute du besoin</li>
+      <li>S'appuyer sur l'existant</li>
+      <li>Associer des idées</li>
+      <li>Bricoler</li>
+      <li>Délivrer rapidement</li>
+    </ol>
+
+    <img style="position: absolute; right: -100px; bottom: 60px; height: 450px" src="img/bartHomer.gif" />
+
+  </div>
+
+  <div class="step" id="letsplay" data-x="19500" data-y="-1500">
+
+    <h1>A vous de jouer !</h1>
+
+    <img style="position: absolute; right: 500px; bottom: 100px; height: 300px" src="img/gamepad/joystick2.jpg">
+    <img style="position: absolute; right: 500px; bottom: 400px; height: 300px" src="img/gamepad/pspad.jpg">
+    <img style="position: absolute; right: 0px; bottom: 100px; height: 300px" src="img/gamepad/donkeykong.jpg">
+    <img style="position: absolute; right: 0px; bottom: 400px; height: 300px" src="img/gamepad/wheel.jpg">
+
+  </div>
+
+  <div class="step" id="challenge" data-x="21000" data-y="-1500">
+
+    <h1>Next Step : Guitar Hero !</h1>
+
+    <img style="position: absolute; right: 217px; bottom: 277px; height: 350px" src="img/challenge-gh.png">
+    <img style="position: absolute; right: -100px; bottom: 30px; height: 850px" src="img/gamepad/guitarhero.png" />
+
+  </div>
+
+  <div class="step" id="quote" data-x="23500" data-y="-1500">
+
+    <blockquote style="margin-top: 250px">
+      <em>Pour explorer le champ des possibles, le bricolage est la méthode la plus efficace.</em>
+      <footer><strong>— Hubert Reeves, Astrophysicien</strong></footer>
+    </blockquote>
+
+    <img style="position: absolute; right: 99px; bottom: 280px;" src="img/hubert.jpg" />
+
+  </div>
+
+  <div class="step" id="end" data-x="-1000" data-y="0" data-z="10000">
+
+    <h1>Merci !</h1>
+    <p>Des questions ?</p>
+    <a href="http://twitter.com/sylvainw">@sylvainw</a>
+
+    <aside>Créé avec <a href="https://github.com/bartaz/impress.js">Impress.JS</a><br/>
+      Présentation disponible à l'adresse suivante : <b style="font-size: 3em"><a href="http://goo.gl/WsBY5">goo.gl/WsBY5</a></b></aside>
+
+  </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script src="js/highlight/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>
