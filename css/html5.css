@@ -162,7 +162,7 @@ body     { pointer-events: none; }
   font-weight: 700;
 }
 
-.step aside {
+.step > aside {
   font-size: .5em;
   position: absolute;
   bottom: 150px;
