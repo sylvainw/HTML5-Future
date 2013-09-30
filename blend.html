@@ -1,0 +1,505 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>L'art de Bricoler</title>
+
+  <meta name="description" content="Présentation interactive présentant une expérimentation HTML5 créée par la team Kontest.">
+  <meta name="author" content="Sylvain Weber" />
+
+  <link href="http://fonts.googleapis.com/css?family=Exo:400,700" rel="stylesheet" />
+
+  <link href="css/html5.css" rel="stylesheet" />
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-415654-37']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>  
+
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support all the features required</b>, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+  </div>
+
+
+  <div class="step" id="home" data-x="-1000" data-y="-1500">
+    <img style="right: -270px; bottom: 0px;" src="img/bricoler.jpg" height="900" />
+    <h1 style="color: white; position: absolute">L'art de <span style="font-size: 130px">Bricoler</span></h1>
+    <p style="color: white; position: absolute; margin-top: 170px">Blend - Octobre 2013<br/>
+      @sylvainw<br/>
+      <!--<a style="color:black; font-size: .8em" href="#">Voir la vidéo</a>-->
+    </p>
+  </div>
+
+  <div class="step" id="whoami" data-x="500" data-y="-1500">
+    <h1>Présentation</h1>
+
+    <ul style="margin-top: 50px; list-style-type: none">
+      <li><b><a href="http://www.linkedin.com/in/sylvainw" style="font-size:1.5em">Sylvain Weber</a> / <a href="http://twitter.com/sylvainw">@sylvainw</a></b></li>
+    </ul>
+
+    <em>"Innover et donner envie d'innover"</em>
+
+    <ul style="position: absolute; bottom: 120px; right: 100px; font-size: 2em; list-style-type:none">
+      <li><img style="position: absolute; right: 300px; bottom: 300px; width: 400px" src="img/dailymotion.jpg" /> 2008</li>
+      <li><img style="position: absolute; right: 300px; bottom: 130px; width: 400px" src="img/google.png" />2011</li>
+      <li><img style="position: absolute; right: 300px; bottom: 10px; width: 400px" src="img/logo_kontest.jpg" />2013</li>
+    <ul>
+
+  </div>
+
+  <div class="step" id="poll" data-x="2000" data-y="-1500">
+
+    <img style="right: -270px; bottom: 0px; top: 0" src="img/bricoler2.jpg" height="900" />
+    <h1 style="top: 50px; left: -60px; color: white; position: absolute; font-size: 2em">Sondage :<br/> <em>Qui bricole<br/> dans la salle ?</em></h1>
+
+  </div>
+
+  <div class="step" id="meetup" data-x="3500" data-y="-1500">
+
+    <h1>Une recette qui fonctionne</h1>
+
+    <p><em>Du HTML5 et des pizzas !</em></p>
+
+    <ul>
+      <li>1er <a href="http://html5meetup.com">meetup HTML5</a> en Février 2012</li>
+      <li>L'équipe <a href="http://fr.bemyapp.com">BeMyApp</a> m'invite à collaborer</li>
+      <li>Google, Mozilla, Deezer et bien d'autres</li>
+      <li><b>12</b> meetups, <b>+1500</b> membres, <b>250</b> chaque mois</li>
+    </ul>
+
+    <img style="position: absolute; right: 653px; bottom: 120px; height: 217px" src="img/john_karp.jpg" />
+    <img style="position: absolute; right: 310px; bottom: 120px; height: 217px" src="img/meetup4.jpg" />
+    <img style="position: absolute; right: -54px; bottom: 120px; height: 217px" src="img/meetup5.jpg" />
+
+  </div>
+
+  <div class="step" id="oneyear" data-x="5000" data-y="-1500">
+
+    <h1>Mais il y a un problème</h1>
+
+    <ul>
+      <li>Démos issues de la scène US</li>
+      <li>L'audience reste spectateur</li>
+      <li>Sommes-nous <b>moins bons, moins motivés ?</b></li>
+    </ul>
+
+    <img style="position: absolute; right: 99px; bottom: 64px; height: 390px" src="img/ralph.gif" />
+
+  </div>
+
+  <div class="step" id="no" data-x="7500" data-y="-1500" style="background-color: red; width: 1500px">
+    <h1 style="font-size: 10em; width: 1000px; margin-top: 100px; text-align:center; margin-left: -100px; color: white; width: 1500px">NON !</h1>
+  </div>
+
+  <div class="step" id="think" data-x="10000" data-y="-1500">
+
+    <h1>Alors, on va se détendre</h1>
+
+    <ol style="width: 1000px">
+      <li><b>Constat n°1</b> : C'est la crise</li>
+      <li><b>Constat n°2</b> : Nous sommes un vieux pays</li>
+      <li><b>Constat n°3</b> : <em><a href="http://www.youtube.com/watch?v=_tjYoKCBYag">La vie est dangereuse, on risque de mourir !</a></em></li>
+    </ol><a href="http://paris.blog.lemonde.fr/a-propos/"><img style="position: absolute; right: 0px; bottom: 274px; height: 230px; border: 20px solid yellow" src="img/peter_gabor.jpg" /></a>
+
+    <img style="position: absolute; right: 300px; bottom: 93px; height: 430px" src="img/balneo.jpg" />
+
+  </div>
+
+  <div class="step" id="innovate" data-x="11500" data-y="-1500">
+
+    <h1>Donner envie d'innover ?</h1>
+
+    <ol>
+      <li>Ne plus présenter le travail des autres</li>
+      <li>Innover par moi-même</li>
+      <li>En parler au meetup</li>
+      <li>Observer les réactions</li>
+    </ol>
+
+    <img style="position: absolute; right: 300px; bottom: 93px; height: 330px" src="img/accident.jpg" />
+
+  </div>
+
+  <div class="step" id="ddrPlay" data-x="13000" data-y="-1500">
+
+    <h1>Dance Dance Revolution</h1>
+
+    <img style="position: absolute; right: 59px; bottom: 100px; height: 600px" src="img/ddrPlay.png" />
+    <p style="position: absolute; right: -559px; bottom: -300px; font-size: 1000px">+</p>
+  </div>
+
+  <div class="step" id="america" data-x="14500" data-y="-1500">
+
+    <h1>Walk across America</h1>
+
+    <img style="position: absolute; right: 109px; bottom: 100px; height: 600px" src="img/walk.jpg" />
+
+  </div>
+
+  <div class="step" id="before" data-x="16000" data-y="-1500">
+
+    <h1>Pré-requis</h1>
+
+    <ol>
+      <li>Récupérer le tapis chez ma sœur</li>
+      <li>Vérifier la prise en charge de la manette</li>
+      <li>Varier la vitesse d'une vidéo HTML5</li>
+    </ol>
+
+    <p>OUI ? <strong>JUST DO IT !</strong></p>
+
+    <img style="position: absolute; right: 99px; bottom: 64px; height: 300px" src="img/ddr.png" />
+    <img style="position: absolute; right: 430px; bottom: 64px;" src="img/usb.jpg" />
+
+  </div>
+
+  <div class="step" id="demo" data-x="17500" data-y="-1500">
+
+    <h1>Running Spree !</h1>
+
+    <iframe style="margin-top:50px" width="800" height="480" src="http://www.youtube.com/embed/ZBceuwwKLZc" frameborder="0" allowfullscreen></iframe>
+    Vidéo : <a href="mailto:john@bemyapp.com">john@bemyapp.com</a>
+  </div>
+
+  <div class="step" id="opportunity" data-x="19000" data-y="-1500">
+
+    <h1>Ça a du bon de Bricoler</h1>
+
+    <ul>
+      <li>Participation à <a href="http://parleys.com/play/517c6cb6e4b0c6dcd954647b">Devoxx</a></li>
+      <li>Des calories perdues sur le Stand Google</li>
+      <li>Présence à BLEND !</li>
+    </ul>
+    
+    <img style="position: absolute; left: -70px; bottom: 100px; height: 400px" src="img/devoxx_sylvain_weber.jpg" />
+
+    <iframe style="position:absolute; bottom: 100px; right: -100px" width="500" height="400" src="http://www.youtube.com/embed/54xiszFUsZY" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+
+  <div class="step" id="lastround" data-x="20500" data-y="-1500">
+
+    <h1>3 nouveaux Bricoleurs</h1>
+
+    <ol style="font-size: .8em">
+      <li>
+        <img style="position: absolute; bottom: 520px; height: 200px;" src="img/HTML5Hero.png"/>
+        <strong><a href="http://goo.gl/g944T">HTML5 Hero</a></strong> par <a href="http://twitter.com/_jmpp">@_jmpp</a>
+        <ul>
+          <li>Guitar Hero</li>
+          <li>Gamepad API</li>
+          <li>Canvas 2D</li>
+        </ul>
+      </li>
+
+      <li>
+        <img style="position: absolute; bottom: 300px; height: 200px" src="img/mingo/motus.jpg"/>
+        <strong><a href="http://goo.gl/nwBmG">Mingo</a></strong> par <a href="http://twitter.com/FlorianReneau">@FlorianReneau</a>
+        <ul>
+          <li>Jeu multijoueur mobile</li>
+          <li>PeerJS</li>
+          <li>Clay.io API</li>
+        </ul>
+      </li>
+
+      <li>
+        <img style="position: absolute; bottom: 80px; height: 200px" src="img/deezehero_partie_3d_scale.jpg"/>
+        <strong>Deezer Hero</strong> par <a href="http://twitter.com/vladimirkosmala">@vladimirkosmala</a>
+        <ul>
+          <li>Guitar Hero</li>
+          <li>Deezer API</li>
+        </ul>
+      </li>
+    </ol>
+
+  </div>
+
+  <div class="step" id="deezer" data-x="22000" data-y="-1500">
+    <h1>Bricolage #4 : Deezer Hero</h1>
+
+    <iframe style="margin-top:50px" width="800" height="480" src="http://www.youtube.com/embed/ml02uX-ioz8" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="step" id="process" data-x="23500" data-y="-1500">
+
+    <h1>Mode d'emploi</h1>
+
+    <ol style="margin-top: 40px; font-size: 50px">
+      <li>Partir d'une intuition</li>
+      <li>Bricoler <strong>sans limite</strong></li>
+      <li>Partager ses trouvailles</li>
+      <li>Passer le relais</li>
+    </ol>
+
+    <img style="position: absolute; right: -100px; bottom: 60px; height: 378px" src="img/bartHomer.gif" />
+
+  </div>
+
+  <div class="step" id="startup" data-x="25000" data-y="-1500">
+
+    <blockquote style="margin-top: 50px; margin-left: 0; font-weight: bold; font-size: 50px">
+      <em>Peut-on BRICOLER <br/>dans une startup ?</em>
+    </blockquote>
+
+    <img style="position: absolute; right: 100px; bottom: 100px; width: 750px" src="img/team2013-2.gif" /> 
+
+  </div>
+
+  <div class="step" id="kontest" data-x="26500" data-y="-1500">
+
+    <h1>C'est quoi <a href="http://kontestapp.com">Kontest</a> ?</h1>
+
+    <ul>
+      <li>Plateforme de création de jeux multicanaux</li>
+      <li>Basée sur les technos HTML5</li>
+      <li>Propulsée par une team géniale</li>
+    </ul>
+
+    <img src="img/kontest_multicanal.png" style="bottom: 100px" />
+
+  </div>
+
+  <div class="step" id="easyjet" data-x="28000" data-y="-1500">
+
+    <img style="position: absolute; right: -330px; top: 2px; width: 1750px; opacity: .5" src="img/easyjet.png" /> 
+
+    <blockquote style="position: absolute; margin-top: 50px; margin-left: -50px">
+      <em>Le monde n'attend pas</em>
+      <footer><strong>— Easyjet</strong></footer>
+    </blockquote>
+
+  </div>
+
+  <div class="step" id="innovation" data-x="29500" data-y="-1500" style="background-color: black; width: 1500px">
+
+    <h1 style="text-align: center; color:white">3 ans d'innovation en 1 min</h1>
+
+    <iframe style="margin-top: 30px; margin-left: 200px" width="1000" height="600" src="https://player.vimeo.com/video/74685445" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+
+  <div class="step" id="challenge" data-x="31000" data-y="-1500">
+  
+    <h1>Notre défi</h1>
+
+    <em>Créer une expérience de jeu unique au monde</em>
+
+    <img src="img/guiness-record.jpg" height="600" style="bottom: 50px; right: 130px" />
+
+  </div>
+
+  <div class="step" id="plexio" data-x="32500" data-y="-1500">
+
+    <h1>Notre Bricolage : "Plexio"</h1>
+
+    <p style="margin-top: 70px">Un jeu de course avec :</p>
+
+    <ul style="list-style-type: none; margin-top: 50px">
+      <li>… des milliers de joueurs<br/><b>WHAT ?</b></li>
+      <li>… en simultané<br/><b>YOU KIDDING ME ?</b></li>
+      <li>… dans la même partie<br/><b>OMG !!!</b></li>
+    </ul>
+
+    <img style="right: -100px; bottom: 40px" src="img/sketch_plexio.jpg" />
+
+  </div>
+
+  <div class="step" id="dreamteam" data-x="34000" data-y="-1500">
+
+    <h1>La DreamTeam !</h1>
+
+    <ul>
+      <li>Multiplayer : <b>Arnaud S.</b></li>
+      <li>Engine : <b>Clément</b></li>
+      <li>Mobile : <b>Arnaud P.</b></li>
+    </ul>
+    <ul style="position: relative; top: -210px; left: 500px">
+      <li>Social : <b>Mathieu D.</b></li>
+      <li>Gameplay : <b>Florian</b></li>
+      <li>Dashboard : <b>Mathieu S.</b></li>
+    </ul>
+
+    <img src="img/team-tech.jpg" height="450" style="bottom:60px" />
+
+  </div>
+
+  <div class="step" id="first" data-x="35500" data-y="-1500">
+
+    <h1>Ça n'a pas été facile</h1>
+
+    <ul>
+      <li><b>4 mois</b> de développement</li>
+      <li><b>5 développeurs</b> à plein temps</li>
+      <li>Des technologies encore fragiles sur mobile</li>
+    </ul>
+
+    <img src="img/team-tech-work.jpg" height="400" style="bottom:100px; left: -100px" />
+    <img src="img/plexio_mobile.jpg" height="400" style="bottom:100px; right: -100px" />
+
+  </div>
+
+  <div class="step" id="scale" data-x="37000" data-y="-1500">
+
+    <h1>1000 joueurs en simultané...</h1>
+
+    <ul>
+      <li>Prédiction complexe côté client</li>
+      <li>Tests difficiles avec Websocket</li>
+      <li>Pas de réponse des barbus</li>
+    </ul>
+
+    <img src="img/barbu.jpg" height="450" style="bottom:60px; right: -50px" />
+    <img src="img/tsung.png" height="450" style="bottom:60px; right: 250px" />
+
+  </div>
+
+  <div class="step" id="reality" data-x="38500" data-y="-1500">
+
+    <h1>On a voulu tester en vrai</h1>
+
+    <ul>
+      <li>Tests quotidiens avec l'équipe</li>
+      <li><b>20 joueurs</b> atteints à la pépinière</li>
+    </ul>
+
+    <a href="#video">Vidéo Pépinière</a>
+
+  </div>
+
+  <div class="step" id="criteo" data-x="40000" data-y="-1500">
+
+    <img style="right: -170px; bottom: 2px; height: 900px" src="img/meetup_criteo.jpg" />
+    <img style="right: -150px; bottom: 70px; height: 250px; border: 10px solid white" src="img/34_players.jpg" />
+
+    <h1 style="color: white; position: absolute;">Record à battre</h1>
+
+    <ul style="color: white; position: absolute; top: 200px; list-style-type: none">
+      <li>1 borne Wifi</li>
+      <li style="font-size: 2em;"><b>34 joueurs</b></li>
+    </ul>
+
+  </div>
+
+  <div class="step" id="testing" data-x="41500" data-y="-1500">
+
+    <h1>Nous pouvons mieux faire !</h1>
+
+    <ul>
+      <li>6 Access Point dual radio</li>
+      <li>Wifi a/b/g/n</li>
+      <li>600 connexions simultanées</li>
+      <li>lien Internet à 60 Mbps</li>
+    <ul>
+
+    <img src="img/blend.jpg" height="450" style="bottom:60px; right: -240px" />
+    <a href="http://www.zdnet.fr/actualites/le-centre-de-congres-de-lyon-leader-en-europe-pour-son-infrastructure-ip-et-sa-connectivite-internet-39789340.htm"><img src="img/zdnet_lyon.png" height="350" style="top:200px; right: -150px; border: 10px solid white" /></a>
+
+  </div>
+
+  <div class="step" id="in1min" data-x="43000" data-y="-1500">
+
+    <h1>Disclamer</h1>
+
+    <ul>
+      <li>Il s'agit d'une expérimentation</li>
+      <li>En 1 min : 
+        <ul style="margin-left: 30px">
+          <li><b>500 connexions</b> FBLogin déclenchées</li>
+          <li><b>250.000 avatars</b> téléchargés</li>
+          <li><b>500.000 échanges</b> avec le serveur</li>
+        </ul>
+      <li style="margin-top: 20px"><b>ÇA VA PLANTER !</b><br/>la question c'est quand ?</li>
+    </ul>
+
+    <img src="img/simpson_twitter.jpg" height="300" style="bottom: 70px; right: -50px" />
+
+  </div>
+
+  <div class="step" id="progress" data-x="44500" data-y="-1500">
+
+    <h1 style="font-size: 1.6em">Qui veut gagner des joueurs ?</h1>
+
+    <ul style="margin-top: 50px; margin-left: 100px; font-size: 1.2em">
+      <li><b>500</b> joueurs</li>
+      <li><b>250</b> joueurs</li>
+      <li><b>100</b> joueurs</li>
+      <li><b>50</b> joueurs</li>
+      <li><b>25</b> joueurs</li>
+      <li><b>10</b> joueurs</li>
+    </ul>
+
+    <p style="position:absolute; bottom:100px; left: 0"><b>Chaque test réussi est fêté par un SHOT !</b></p>
+    <img src="img/shot.jpg" height="300" style="bottom:70px; right: -50px" />
+
+  </div>
+
+  <div class="step" id="congratulation" data-x="46000" data-y="-1500">
+
+    <blockquote style="margin-top: 50px; margin-left: 0; font-weight: bold; font-size: 45px">
+      <em>BRAVO A L'ÉQUIPE !</em>
+    </blockquote>
+
+    <img src="img/night.jpg" height="400" style="bottom:300px; right: 200px" />
+    <img src="img/dead.jpg" height="400" style="bottom:30px; right: 400px" />
+    <img src="img/pizza.jpg" height="400" style="bottom:100px; right: 50px" />
+
+  </div>
+
+  <div class="step" id="feedbacks" data-x="47500" data-y="-1500">
+
+    <h1>Ce n'est que le début...</h1>
+
+    <ul>
+      <li>Bientôt sur l'AppStore / Google Play</li>
+      <li>Feedbacks, conseils, insultes : <a href="mailto:feedback@plex.io">feedback@plex.io</a></li>
+      <li>Suivez l'aventure sur : <a href="http://plex.io"><b>http://Plex.io</b></a></li>
+    </ul>
+
+    <img src="#" height="450" style="bottom:60px; right: 240px" />
+
+  </div>
+
+  <div class="step" id="quote" data-x="49000" data-y="-1500">
+  
+    <blockquote style="margin-top: 250px; margin-left: -100px">
+      <em>Du chaos naissent les étoiles.</em>
+      <footer><strong>— Charlie Chaplin</strong></footer>
+    </blockquote>
+
+    <img style="position: absolute; right: -270px; bottom: 2px;" src="img/charlot.png" />
+
+  </div>
+
+  <div class="step" id="end" data-x="-1000" data-y="0" data-z="10000">
+
+    <p>A votre tour de bricoler.</p>
+    <h1>Merci</h1>
+
+    <p>
+    Tweetez cette Présentation<br/> <b style="font-size: 3em"><a href="http://www.twitter.com/share?url=http://goo.gl/bNy4So">goo.gl/bNy4So</a></b>
+    </p>
+
+  </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+
+</body>
+</html>
