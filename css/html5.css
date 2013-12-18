@@ -137,6 +137,7 @@ body     { pointer-events: none; }
     margin-bottom: 10px;
 }
 
+.step a {color: black;}
 .step p {margin: 20px 0;}
 .step li {line-height: 2em;}
 
@@ -257,4 +258,47 @@ body     { pointer-events: none; }
 
 .step#end h1 {
   font-size:5em
+}
+
+/* INVERT SPECIFIC */
+
+body#invert {background-color: black; color: white}
+body#invert .step a {color: black; background-color: #78FFB8;}
+
+@-webkit-keyframes twinkly-big {
+    0%   { text-shadow: 0 0 50px #78FFB8; }
+    100% { text-shadow: 0 0 50px #377E57; }
+}
+@-moz-keyframes twinkly-big  {
+     0%   { text-shadow: 0 0 100px #6c9; }
+    100% { text-shadow: 0 0 50px #377E57; }
+}
+@-ms-keyframes twinkly-big  {
+     0%   { text-shadow: 0 0 100px #6c9; }
+    100% { text-shadow: 0 0 50px #377E57; }
+}
+
+#twinkle-big{
+    -webkit-animation: twinkly-big 2s alternate infinite;
+    -moz-animation: twinkly-big 2s alternate infinite;
+    -ms-animation: twinkly-big 2s alternate infinite;
+}
+
+@-webkit-keyframes twinkly {
+    0%   { text-shadow: 10px 10px 30px #78FFB8; }
+    100% { text-shadow: 10px 10px 30px #377E57; }
+}
+@-moz-keyframes twinkly  {
+     0%   { text-shadow: 0 0 100px #6c9; }
+    100% { text-shadow: 0 0 50px #377E57; }
+}
+@-ms-keyframes twinkly  {
+     0%   { text-shadow: 0 0 100px #6c9; }
+    100% { text-shadow: 0 0 50px #377E57; }
+}
+
+#twinkle{
+    -webkit-animation: twinkly 2s alternate infinite;
+    -moz-animation: twinkly 2s alternate infinite;
+    -ms-animation: twinkly 2s alternate infinite;
 }
